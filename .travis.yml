@@ -13,4 +13,4 @@ before_script:
   - flake8 codigo_avulso_test_tutorial
 
 script:
-  - run setup.py test
+  - python setup.py test
