@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+
 class FiguraGeometrica(object):
 
     # Retorna a area do solido
@@ -7,4 +10,3 @@ class FiguraGeometrica(object):
     # Retorna o perimetro
     def get_perimetro(self):
         raise NotImplementedError
-
