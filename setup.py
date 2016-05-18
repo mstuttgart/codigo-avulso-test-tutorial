@@ -1,10 +1,16 @@
 # -*- coding: utf-8 -*-
-from setuptools import setup
+from setuptools import setup, find_packages
+
 setup(
-    # Nome da sua aplicação
     name='codigo-avulso-test-tutorial',
-    # diretorios com codigos fontes
-    packages=['codigo_avulso_test_tutorial', 'test'],
-    # diretorio com arquivo de test
+    version='0.1.1'
+    url='https://github.com/mstuttgart/codigo-avulso-test-tutorial',
+    license='MIT License',
+    author='Michell Stuttgart',
+    author_email='michellstut@gmail.com',
+    keywords='tutorial test unittest codigoavulso',
+    description=u'Tutorial de teste unitário em Python para o blog Código Avulso',
+    packages=find_packages(),
+    install_requires=[],
     test_suite='test',
 )
