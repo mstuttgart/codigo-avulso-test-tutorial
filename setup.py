@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='codigo-avulso-test-tutorial',
-    version='0.1.1'
+    version='0.1.1',
     url='https://github.com/mstuttgart/codigo-avulso-test-tutorial',
     license='MIT License',
     author='Michell Stuttgart',
