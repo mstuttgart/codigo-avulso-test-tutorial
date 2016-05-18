@@ -6,11 +6,7 @@ python:
 sudo: required
 
 install:
-  - pip install flake8
   - pip install coveralls
-
-before_script:
-  - flake8 codigo_avulso_test_tutorial
 
 script:
   - coverage run --source=codigo_avulso_test_tutorial setup.py test
