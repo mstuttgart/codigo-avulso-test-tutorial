@@ -7,7 +7,8 @@ class TestFiguraGeometrico(TestCase):
     # Serve para incializar variavei que usaremos
     # globalmente nos testes
     def setUp(self):
-        TestCase.setUp(self)
+        super(TestFiguraGeometrico, self).setUp()
+
         self.fig = FiguraGeometrica()
 
     # Retorna uma NotImplementedError

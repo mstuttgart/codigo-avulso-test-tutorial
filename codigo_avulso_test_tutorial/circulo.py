@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 import math
-from figura_geometrica import FiguraGeometrica
+from .figura_geometrica import FiguraGeometrica
 
 
 class Circulo(FiguraGeometrica):

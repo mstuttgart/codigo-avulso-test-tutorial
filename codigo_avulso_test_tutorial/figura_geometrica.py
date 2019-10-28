@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
 
-
-class FiguraGeometrica(object):
+class FiguraGeometrica():
 
     # Retorna a area do solido
     def get_area(self):

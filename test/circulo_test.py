@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import math
 from unittest import TestCase
 from codigo_avulso_test_tutorial.circulo import Circulo
@@ -6,7 +5,7 @@ from codigo_avulso_test_tutorial.circulo import Circulo
 class TestCirculo(TestCase):
     
     def setUp(self):
-        TestCase.setUp(self)
+        super(TestCirculo, self).setUp()
         self.fig = Circulo()
 
     def test_get_area(self):
